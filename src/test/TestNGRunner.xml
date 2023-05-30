@@ -1,0 +1,16 @@
+
+<suite name="Suite1" verbose="1" parallel="methods" thread-count="2" >
+    <parameter name="parameter-name" value="Nikolina" />
+    <parameter name="a" value="3" />
+    <parameter name="b" value="12" />
+
+    <test name="RegressionSuite" >
+        <classes>
+            <!--<class name="MySimpleTest" />
+              <class name="AnnotationTests"/>
+              <class name="TestsWithParameters"/>-->
+
+             <class name="AssertionTests"/>
+        </classes>
+    </test>
+</suite>
